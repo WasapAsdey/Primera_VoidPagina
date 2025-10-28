@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255)
+}
+#lienzo {
+    width: 600px;
+    height: 600px;
+    border: 3px rgb(255, 255, 255) solid;
+    background-color: rgb(24, 24, 24);
+       display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Grasa{
+    border-radius: 50%;
+    width: 60%;
+    height: 60%;
+    background-color: rgb(224, 255, 47);
+    position: relative;
+ 
+}
+.ojos{
+      border-radius: 50%;
+    width: 25%;
+    height: 25%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+}
+
+#ojoderecho{
+  left: 57%;
+  top: 15%
+}
+#ojoizquierdo{
+   right: 57%;
+   top: 15%;
+
+}
+
+#triangulo{
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 70px solid #5a48ff;
+   right: 57%;
+   top: 15%;
+}
+}
