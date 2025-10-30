@@ -40,12 +40,13 @@ body{
 }
 
 #triangulo{
+ position: absolute;
   width: 0;
   height: 0;
-  border-left: 40px solid transparent;
-  border-right: 40px solid transparent;
-  border-bottom: 70px solid #5a48ff;
-   right: 57%;
-   top: 15%;
+  border-left: 60px solid transparent;
+  border-right: 130px solid transparent;
+  border-bottom: 90px solid #000000;
+   right: 7%;
+   top: 55%;
 }
 }
